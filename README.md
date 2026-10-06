@@ -1,19 +1,11 @@
-# TriageIA — PostgreSQL (Hospital_triage)
+# Esquema Relacional de Base de Datos - Sistema Triage
 
-Contenedor Docker **aparte** de tus otros Postgres (`mi-postgres` en 5432).
+Repositorio que aloja la definición del esquema relacional en **PostgreSQL**, scripts de catálogo maestro, configuración de Docker Compose y guías de administración para el sistema predictivo de urgencias.
 
-```bash
-docker compose up -d
-```
+## Contenido
+- `sql/01_schema.sql`: Estructura DDL de tablas e índices.
+- `sql/02_catalogo.sql`: Datos semilla del protocolo Manchester.
+- `docker-compose.yml`: Entorno local contenerizado listo para ejecutar.
 
-| DBeaver | Valor |
-|---------|--------|
-| Host | `localhost` (local) o host External de Render |
-| Puerto | `5434` local · `5432` en Render |
-| Database | `hospital_triaje` |
-| User | `triage` (local) |
-| Password | `triage` (local) |
-
-En Render usa el Postgres **Hospital_triage** (nuevo, no mezclar con otros proyectos). Copia **External Database URL** en DBeaver.
-
-Scripts: `sql/01_schema.sql`, `sql/02_catalogo.sql`. En Docker se ejecutan al crear el volumen por primera vez. En Render, Hibernate (`ddl-auto: update`) crea las tablas al arrancar el API.
+## Guías y Manuales
+Encuentre toda la documentación del modelo en la carpeta [`docs/`](docs/).
