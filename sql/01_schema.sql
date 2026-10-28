@@ -39,7 +39,10 @@ CREATE TABLE signos_vitales (
     pad                      INTEGER NOT NULL CHECK (pad BETWEEN 20 AND 160),
     temperatura              NUMERIC(4,1) NOT NULL CHECK (temperatura BETWEEN 30 AND 43),
     frecuencia_respiratoria  INTEGER NOT NULL CHECK (frecuencia_respiratoria BETWEEN 4 AND 60),
-    registrado_en            TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    registrado_en            TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    glucosa                  INTEGER CHECK (glucosa BETWEEN 10 AND 1500),
+    dolor                    INTEGER CHECK (dolor BETWEEN 0 AND 10),
+    conciencia               VARCHAR(1) CHECK (conciencia IN ('A', 'C', 'V', 'P', 'U'))
 );
 
 CREATE TABLE evaluaciones_triage (
@@ -51,7 +54,14 @@ CREATE TABLE evaluaciones_triage (
     estado          VARCHAR(24) NOT NULL DEFAULT 'EN_ESPERA',
     posicion_cola   INTEGER,
     news2           INTEGER,
-    evaluado_en     TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    evaluado_en     TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    fuente_score    VARCHAR(24),
+    explicacion_ia  TEXT,
+    area_destino    VARCHAR(40),
+    codigo_destino  VARCHAR(60),
+    motivo_destino  VARCHAR(300),
+    espera_max_min  INTEGER,
+    campos_estimados VARCHAR(200)
 );
 
 CREATE INDEX idx_signos_paciente_fecha ON signos_vitales (paciente_id, registrado_en DESC);
