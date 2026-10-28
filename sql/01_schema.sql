@@ -27,7 +27,10 @@ CREATE TABLE pacientes (
     lesion_id       VARCHAR(40),
     motivo          VARCHAR(500),
     antecedentes    VARCHAR(400),
-    creado_en       TIMESTAMPTZ  NOT NULL DEFAULT NOW()
+    creado_en       TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
+    telefono        VARCHAR(20),
+    embarazo        BOOLEAN      NOT NULL DEFAULT FALSE,
+    semanas_gestacion INTEGER
 );
 
 CREATE TABLE signos_vitales (
@@ -61,9 +64,23 @@ CREATE TABLE evaluaciones_triage (
     codigo_destino  VARCHAR(60),
     motivo_destino  VARCHAR(300),
     espera_max_min  INTEGER,
-    campos_estimados VARCHAR(200)
+    campos_estimados VARCHAR(200),
+    vigente         BOOLEAN      NOT NULL DEFAULT TRUE,
+    evaluado_por    VARCHAR(120),
+    llegada_en      TIMESTAMPTZ,
+    atencion_inicio TIMESTAMPTZ,
+    presente        BOOLEAN      NOT NULL DEFAULT TRUE,
+    notificado_en   TIMESTAMPTZ,
+    canal_aviso     VARCHAR(20)
+);
+
+CREATE TABLE uso_gemini (
+    dia      DATE PRIMARY KEY,
+    llamadas INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE INDEX idx_signos_paciente_fecha ON signos_vitales (paciente_id, registrado_en DESC);
 CREATE INDEX idx_eval_estado_score ON evaluaciones_triage (estado, score_riesgo DESC);
 CREATE INDEX idx_eval_paciente ON evaluaciones_triage (paciente_id, evaluado_en DESC);
+CREATE INDEX idx_eval_vigente_estado ON evaluaciones_triage (vigente, estado, score_riesgo DESC);
+CREATE INDEX idx_eval_paciente_vigente ON evaluaciones_triage (paciente_id, vigente);
