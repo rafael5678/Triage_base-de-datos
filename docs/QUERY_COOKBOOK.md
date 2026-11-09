@@ -1,3 +1,5 @@
+> **English:** Developer note for `QUERY_COOKBOOK`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Recetario de Consultas SQL Útiles (Cookbook)
 
 ### 1. Pacientes en espera ordenados por urgencia
