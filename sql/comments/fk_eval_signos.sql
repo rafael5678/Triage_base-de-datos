@@ -1,0 +1,2 @@
+-- Documents an existing foreign key. Does not change it.
+-- evaluaciones_triage.signos_id -> signos_vitales.id
