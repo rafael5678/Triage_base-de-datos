@@ -1,0 +1,2 @@
+-- Catalog seed `sca` already inserted by 05_usuarios_y_sintomas.sql.
+-- 88 / ESI 2 chest pain. Labels stay Spanish for the staff UI.
