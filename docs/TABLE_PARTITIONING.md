@@ -1,3 +1,5 @@
+> **English:** Developer note for `TABLE_PARTITIONING`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Particionamiento de Tablas Históricas
 
 Para instituciones de gran volumen asistencial, se recomienda particionar `signos_vitales` y `evaluaciones_triage` por rangos mensuales:
