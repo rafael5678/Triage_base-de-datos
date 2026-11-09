@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- pacientes_pkey: Primary key on patients.
