@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- score_riesgo BETWEEN 0 AND 100
