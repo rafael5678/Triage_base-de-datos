@@ -1,3 +1,5 @@
+> **English:** Developer note for `REPLICATION_GUIDE`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Arquitectura de Replicación para Urgencias
 
 Para hospitales con servicio de urgencias 24/7:
