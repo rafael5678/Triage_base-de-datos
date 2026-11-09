@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- pad BETWEEN 20 AND 160
