@@ -1,3 +1,5 @@
+> **English:** Developer note for `DATA_DICTIONARY`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Diccionario Consolidado de Datos
 
 | Tabla | Columna | Tipo | Nulo | Descripción |
