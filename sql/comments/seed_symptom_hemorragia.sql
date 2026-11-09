@@ -1,0 +1,2 @@
+-- Catalog seed `hemorragia` already inserted by 05_usuarios_y_sintomas.sql.
+-- 84 / ESI 2 bleeding that does not stop. Labels stay Spanish for the staff UI.
