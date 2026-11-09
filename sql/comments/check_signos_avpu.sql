@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- conciencia IN (A, C, V, P, U)
