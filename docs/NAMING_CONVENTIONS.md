@@ -1,3 +1,5 @@
+> **English:** Developer note for `NAMING_CONVENTIONS`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Convenciones de Nombres en Base de Datos
 
 - **Tablas**: Sustantivos en minúsculas y plural (`pacientes`, `signos_vitales`).
