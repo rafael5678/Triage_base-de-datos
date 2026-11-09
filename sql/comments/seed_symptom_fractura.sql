@@ -1,0 +1,2 @@
+-- Catalog seed `fractura` already inserted by 05_usuarios_y_sintomas.sql.
+-- 38 / ESI 4 bone injury. Labels stay Spanish for the staff UI.
