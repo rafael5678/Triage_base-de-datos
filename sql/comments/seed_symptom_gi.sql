@@ -1,0 +1,2 @@
+-- Catalog seed `gi` already inserted by 05_usuarios_y_sintomas.sql.
+-- 18 / ESI 5 mild GI. Labels stay Spanish for the staff UI.
