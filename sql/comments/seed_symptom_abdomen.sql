@@ -1,0 +1,2 @@
+-- Catalog seed `abdomen` already inserted by 05_usuarios_y_sintomas.sql.
+-- 52 / ESI 3 strong abdominal pain. Labels stay Spanish for the staff UI.
