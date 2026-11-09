@@ -1,3 +1,5 @@
+> **English:** Developer note for `TABLE_PACIENTES`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Especificación de Tabla: `pacientes`
 
 Almacena la información demográfica fundamental de los usuarios admitidos en urgencias.
