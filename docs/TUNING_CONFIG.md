@@ -1,3 +1,5 @@
+> **English:** Developer note for `TUNING_CONFIG`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Parámetros Recomendados de Rendimiento (postgresql.conf)
 
 Ajustes para servidores dedicados con 2 GB RAM:
