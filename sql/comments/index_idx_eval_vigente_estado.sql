@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- idx_eval_vigente_estado: Waiting-room list: current rows by status and score.
