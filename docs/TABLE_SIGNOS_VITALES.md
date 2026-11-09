@@ -1,3 +1,5 @@
+> **English:** Developer note for `TABLE_SIGNOS_VITALES`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Especificación de Tabla: `signos_vitales`
 
 Registra cada medición fisiológica asociada a un paciente.
