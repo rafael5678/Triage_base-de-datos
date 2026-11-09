@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- uso_gemini_pkey: One Gemini quota row per day.
