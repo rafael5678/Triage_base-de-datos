@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- frecuencia_cardiaca BETWEEN 20 AND 250
