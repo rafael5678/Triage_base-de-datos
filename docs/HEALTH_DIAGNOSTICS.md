@@ -1,3 +1,5 @@
+> **English:** Developer note for `HEALTH_DIAGNOSTICS`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Consultas de Diagnóstico del DBA
 
 Monitoreo de consultas lentas:
