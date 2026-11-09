@@ -1,0 +1,2 @@
+-- Catalog seed `anafilaxia` already inserted by 05_usuarios_y_sintomas.sql.
+-- 86 / ESI 1 severe allergy. Labels stay Spanish for the staff UI.
