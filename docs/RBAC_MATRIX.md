@@ -1,3 +1,5 @@
+> **English:** Developer note for `RBAC_MATRIX`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Matriz de Control de Acceso Basado en Roles (RBAC)
 
 | Rol | Tabla Pacientes | Tabla Signos | Tabla Evaluaciones | Catálogo |
