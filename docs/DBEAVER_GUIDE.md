@@ -1,3 +1,5 @@
+> **English:** Developer note for `DBEAVER_GUIDE`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Guía de Conexión con DBeaver
 
 Pasos para gestionar visualmente la base de datos:
