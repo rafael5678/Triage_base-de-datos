@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- esi_hint BETWEEN 1 AND 5
