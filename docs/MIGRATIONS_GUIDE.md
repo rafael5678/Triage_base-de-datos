@@ -1,3 +1,5 @@
+> **English:** Developer note for `MIGRATIONS_GUIDE`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Gestión de Migraciones de Base de Datos
 
 Los scripts de base de datos se ordenan cronológicamente:
