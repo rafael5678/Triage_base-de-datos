@@ -1,3 +1,5 @@
+> **English:** Developer note for `SQL_VIEWS`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Vistas Analíticas para Cuadros de Mando
 
 Vista consolidada de pacientes activos en urgencias:
