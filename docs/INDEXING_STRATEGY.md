@@ -1,3 +1,5 @@
+> **English:** Developer note for `INDEXING_STRATEGY`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Estrategia de Índices y Rendimiento SQL
 
 Para que la consulta de la cola dinámica responda en sub-milisegundos:
