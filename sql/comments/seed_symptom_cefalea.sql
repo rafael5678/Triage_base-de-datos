@@ -1,0 +1,2 @@
+-- Catalog seed `cefalea` already inserted by 05_usuarios_y_sintomas.sql.
+-- 26 / ESI 4 headache. Labels stay Spanish for the staff UI.
