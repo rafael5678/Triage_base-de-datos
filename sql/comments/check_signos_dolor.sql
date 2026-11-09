@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- dolor BETWEEN 0 AND 10 when present
