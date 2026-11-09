@@ -1,0 +1,2 @@
+-- Catalog seed `quemadura` already inserted by 05_usuarios_y_sintomas.sql.
+-- 48 / ESI 3 burn. Labels stay Spanish for the staff UI.
