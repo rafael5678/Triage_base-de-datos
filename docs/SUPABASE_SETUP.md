@@ -1,3 +1,5 @@
+> **English:** Developer note for `SUPABASE_SETUP`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Configuración de Base de Datos en Supabase
 
 El esquema es 100% compatible con **Supabase** (PostgreSQL administrado):
