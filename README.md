@@ -9,3 +9,7 @@ Repositorio que aloja la definición del esquema relacional en **PostgreSQL**, s
 
 ## Guías y Manuales
 Encuentre toda la documentación del modelo en la carpeta [`docs/`](docs/).
+
+## Code language
+
+Java and JavaScript identifiers are English. The staff UI stays in Spanish. Database column names stay in Spanish (`nombre`, `documento`, `score_riesgo`) because the running services already map those names.
