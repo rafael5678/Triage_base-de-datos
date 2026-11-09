@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- symptoms_pkey: Primary key on the live symptom catalog.
