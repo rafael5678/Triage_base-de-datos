@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- gravedad BETWEEN 0 AND 100
