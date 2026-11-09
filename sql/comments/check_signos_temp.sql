@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- temperatura BETWEEN 30 AND 43
