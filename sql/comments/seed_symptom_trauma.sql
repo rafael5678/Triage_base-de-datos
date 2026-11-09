@@ -1,0 +1,2 @@
+-- Catalog seed `trauma` already inserted by 05_usuarios_y_sintomas.sql.
+-- 90 / ESI 1 high-energy trauma. Labels stay Spanish for the staff UI.
