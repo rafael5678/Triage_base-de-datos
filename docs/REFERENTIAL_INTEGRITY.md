@@ -1,3 +1,5 @@
+> **English:** Developer note for `REFERENTIAL_INTEGRITY`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Integridad Referencial y Reglas de Borrado
 
 - `signos_vitales.paciente_id`: `ON DELETE CASCADE` para eliminar signos si se borra el paciente.
