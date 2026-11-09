@@ -1,0 +1,2 @@
+-- Catalog seed `avc` already inserted by 05_usuarios_y_sintomas.sql.
+-- 94 / ESI 1 stroke signs. Labels stay Spanish for the staff UI.
