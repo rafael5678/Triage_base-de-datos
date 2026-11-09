@@ -1,0 +1,2 @@
+-- Catalog seed `cura` already inserted by 05_usuarios_y_sintomas.sql.
+-- 8 / ESI 5 minor wound. Labels stay Spanish for the staff UI.
