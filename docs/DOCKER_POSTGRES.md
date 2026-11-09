@@ -1,3 +1,5 @@
+> **English:** Developer note for `DOCKER_POSTGRES`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Despliegue de Base de Datos con Docker Compose
 
 Instrucciones para levantar la base de datos localmente:
