@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- pas BETWEEN 50 AND 260
