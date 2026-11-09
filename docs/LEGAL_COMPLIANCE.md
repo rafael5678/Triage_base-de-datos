@@ -1,3 +1,5 @@
+> **English:** Developer note for `LEGAL_COMPLIANCE`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Cumplimiento Normativo y Retención Clínica
 
 Conforme a la regulación de historias clínicas:
