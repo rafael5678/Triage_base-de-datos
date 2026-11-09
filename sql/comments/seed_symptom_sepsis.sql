@@ -1,0 +1,2 @@
+-- Catalog seed `sepsis` already inserted by 05_usuarios_y_sintomas.sql.
+-- 80 / ESI 2 looks septic. Labels stay Spanish for the staff UI.
