@@ -1,0 +1,2 @@
+-- Documents an existing foreign key. Does not change it.
+-- evaluaciones_triage.paciente_id -> pacientes.id ON DELETE CASCADE
