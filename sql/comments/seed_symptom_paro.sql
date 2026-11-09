@@ -1,0 +1,2 @@
+-- Catalog seed `paro` already inserted by 05_usuarios_y_sintomas.sql.
+-- 99 / ESI 1 unconscious or not breathing. Labels stay Spanish for the staff UI.
