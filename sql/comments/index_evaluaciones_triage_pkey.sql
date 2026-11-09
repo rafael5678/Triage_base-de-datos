@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- evaluaciones_triage_pkey: Primary key on evaluations.
