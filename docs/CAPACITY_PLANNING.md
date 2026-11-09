@@ -1,3 +1,5 @@
+> **English:** Developer note for `CAPACITY_PLANNING`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Planificación de Capacidad de Almacenamiento
 
 Estimación basada en 500 admisiones diarias:
