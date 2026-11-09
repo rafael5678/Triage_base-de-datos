@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- glucosa BETWEEN 10 AND 1500 when present
