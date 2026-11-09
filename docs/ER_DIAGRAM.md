@@ -1,3 +1,5 @@
+> **English:** Developer note for `ER_DIAGRAM`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Modelo Entidad-Relación (Base de Datos Triage)
 
 El diseño relacional garantiza integridad referencial y alta eficiencia para la atención médica.
