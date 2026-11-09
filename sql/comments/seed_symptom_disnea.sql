@@ -1,0 +1,2 @@
+-- Catalog seed `disnea` already inserted by 05_usuarios_y_sintomas.sql.
+-- 82 / ESI 2 severe breathlessness. Labels stay Spanish for the staff UI.
