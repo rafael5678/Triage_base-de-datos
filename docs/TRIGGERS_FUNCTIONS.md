@@ -1,3 +1,5 @@
+> **English:** Developer note for `TRIGGERS_FUNCTIONS`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Disparadores (Triggers) y Funciones PL/pgSQL
 
 Automatización a nivel de motor relacional:
