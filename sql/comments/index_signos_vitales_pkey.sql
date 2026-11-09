@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- signos_vitales_pkey: Primary key on vital-sign rows.
