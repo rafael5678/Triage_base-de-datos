@@ -1,3 +1,5 @@
+> **English:** Developer note for `CATALOGO_NIVELES`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Catálogo Maestro de Niveles de Triage
 
 Valores pre-cargados en la tabla `catalogo_niveles`:
