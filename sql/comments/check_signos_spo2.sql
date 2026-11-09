@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- spo2 BETWEEN 0 AND 100 in 01_schema (JPA may allow to 190)
