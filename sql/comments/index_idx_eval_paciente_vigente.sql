@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- idx_eval_paciente_vigente: Find the current evaluation of one patient.
