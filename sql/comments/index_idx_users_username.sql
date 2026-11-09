@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- idx_users_username: Lookup staff by username on login.
