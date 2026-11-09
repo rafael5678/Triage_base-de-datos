@@ -1,0 +1,2 @@
+-- Documents an existing CHECK. Does not alter the table.
+-- frecuencia_respiratoria BETWEEN 4 AND 60
