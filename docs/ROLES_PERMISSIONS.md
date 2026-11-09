@@ -1,3 +1,5 @@
+> **English:** Developer note for `ROLES_PERMISSIONS`. Physical PostgreSQL names stay in Spanish so JPA mappings keep working. Apply comments from `sql/comments/` without renaming columns.
+
 # Roles y Permisos de Seguridad SQL
 
 Se recomienda segregar privilegios en producción:
