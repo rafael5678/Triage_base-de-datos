@@ -1,0 +1,2 @@
+-- Documents an existing index. Does not create a new one.
+-- catalogo_lesiones_pkey: Primary key on the legacy catalog.
